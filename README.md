@@ -38,7 +38,7 @@ This is the backend system for a fintech application that facilitates financial 
 
 3. **Install nodemon:**
 
-    Nodemon is a utility that will monitor for any changes in your source and automatically restart your server.
+    Nodemon is a utility that will monitor for any changes in your source and automatically restart your server. We will combine it with ts-node-dev due to our typescript
 
     ```bash
     npm install -g nodemon
