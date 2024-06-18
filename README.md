@@ -75,3 +75,10 @@ MAIL_HOST=smtp.mailtrap.io
 MAIL_PORT=587
 MAIL_USER=
 MAIL_PASSWORD=
+```
+
+## Running The Application
+ ```bash
+    npm run dev
+ ```
+If your database has been setup correctly, this will create all required tables due to Synchronize set to true for development purposes
