@@ -5,7 +5,6 @@ This is the backend system for a fintech application that facilitates financial 
 ## Table of Contents
 
 - [Features](#features)
-- [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Database Setup](#database-setup)
 - [Environment Variables](#environment-variables)
