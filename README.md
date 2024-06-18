@@ -26,7 +26,7 @@ This is the backend system for a fintech application that facilitates financial 
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/ekowamoonu/fintech-app-backend.git
+    git clone https://github.com/ekowamoonu/fintech-backend.git
     cd fintech-app-backend
     ```
 
