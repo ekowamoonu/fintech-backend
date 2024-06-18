@@ -89,5 +89,5 @@ If your database has been setup correctly, this will create all required tables 
 A Postman collection is available for you to import and use for testing the API endpoints. Download the collection and import it into your Postman application
 https://documenter.getpostman.com/view/4932254/2sA3XSC29y
 
-## Configuring Email
+## Email Configuration
 This project uses Mailtrap to send email. You are welcome to configure your own mail sending platforms with a few modifications needed.
