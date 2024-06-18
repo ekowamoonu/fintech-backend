@@ -61,7 +61,7 @@ This is the backend system for a fintech application that facilitates financial 
 Create a `.env` file in the root directory of the project and add the following environment variables. NB: Project uses mailtrap for sending mail:
 
 ```env
-TOKEN_KEY=123456789
+TOKEN_KEY=
 APP_PORT=3000
 DATASOURCE_LOGGING=true
 DB_HOST=localhost
