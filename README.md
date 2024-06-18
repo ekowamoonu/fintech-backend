@@ -82,3 +82,9 @@ MAIL_PASSWORD=
     npm run dev
  ```
 If your database has been setup correctly, this will create all required tables due to Synchronize set to true for development purposes
+
+
+## Testing Endpoints & Postman Collection
+
+A Postman collection is available for you to import and use for testing the API endpoints. Download the collection and import it into your Postman application
+https://documenter.getpostman.com/view/4932254/2sA3XSC29y
