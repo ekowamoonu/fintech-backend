@@ -70,44 +70,6 @@ export const register = async(req:Request, res: Response) => {
         return res.status(400).send(error.message);
     }
 
-   
-        
-        /*Create user in db*/
-        // const userRepository = queryRunner.manager.getRepository(User);
-        // const walletRepository = queryRunner.manager.getRepository(Wallet);
-
-        // const user = userRepository.create({
-        //     username,
-        //     email: email.toLowerCase(),
-        //     password: encryptedPassword,
-        // });
-    
-        // await queryRunner.manager.save(user);
-    
-        // /*create wallet for user*/
-        // const wallet = walletRepository.create({user})
-        // await queryRunner.manager.save(wallet);
-    
-        // /*create auth token*/
-        // const token  = jwt.sign(
-        //     {user_id: user.id, email},
-        //     jwtKey,
-        //     {
-        //         expiresIn: "2h"
-        //     }
-        // )
-
-       // await queryRunner.commitTransaction();
-    
-        // return res.status(201).json({user:{id: user.id, username: user.username, balance:user.wallet.balance}, token});
-    // } catch (error:any) {
-    //     await queryRunner.rollbackTransaction();
-    //     return res.status(400).send(error.message);
-    // } finally{
-    //     await queryRunner.release();
-       
-    // }
-
 }
 
 export const login = async(req:Request, res:Response) => {
